@@ -1,0 +1,50 @@
+.pokemon-list {
+  text-align: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.filters {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.search-close-icon {
+  cursor: pointer;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.number-wrap,
+.name-wrap {
+  margin-bottom: 10px;
+}
+
+#not-found-message {
+  color: red;
+  margin-top: 20px;
+}
